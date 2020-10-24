@@ -1,1 +1,1 @@
-echo "Hello $(name)"
+echo "Hello %name%"
