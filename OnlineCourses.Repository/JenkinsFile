@@ -1,0 +1,17 @@
+#!/usr/bin/groovy
+	pipeline
+	{
+		agent any
+		stages
+		{
+			stage("Build"){
+				echo "building..." 
+			}
+			stage("Test"){
+			   echo "Testing..." 
+			}
+			stage("Deploy"){
+			   echo "Deploying..." 
+			}
+		}
+	}
